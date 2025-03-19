@@ -88,9 +88,9 @@ export default {
             this.timer = null;
 
             if (this.game) {
-               this.endGame('Выигрышь');
+               this.endGame('Выигрыш');
             } else {
-               this.endGame('Проигрышь');
+               this.endGame('Проигрыш');
             }
             return;
          }

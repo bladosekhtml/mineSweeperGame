@@ -2,8 +2,8 @@
    <header>
       <nav>
          <ul>
-            <li><h3><a href="/">МЕНЮ</a></h3></li>
-            <li><h3><a href="/history">ИСТОРИЯ</a></h3></li>
+            <li><h3><router-link to="/">МЕНЮ</router-link></h3></li>
+            <li><h3><router-link to="/history">ИСТОРИЯ</router-link></h3></li>
          </ul>
       </nav>
    </header>
