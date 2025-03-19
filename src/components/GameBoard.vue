@@ -18,7 +18,7 @@
 </template>
 
 <script>
-import { generateBoard, openFieldFunction } from '../../game/gameLogic';
+import { generateBoard, openFieldFunction } from '../game/gameLogic';
 import { useRecordStore } from '../stores/records';
 import { ref, onMounted } from 'vue';
 
